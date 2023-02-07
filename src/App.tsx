@@ -1,6 +1,7 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
+import { BookCheckoutPage } from './layouts/BookCheckoutPage/BookCheckoutPage';
 import { Carousel } from './layouts/HomePage/components/Carousel';
 import { ExploreTopBooks } from './layouts/HomePage/components/ExploreTopBooks';
 import { Heros } from './layouts/HomePage/components/Heros';
@@ -24,6 +25,9 @@ export const App = () => {
           </Route>
           <Route path='/search'>
             <SearchBooksPage />
+          </Route>
+          <Route path='/checkout/:bookId'>
+            <BookCheckoutPage />
           </Route>
         </Switch>
       </div>
