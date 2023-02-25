@@ -44,3 +44,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Application Technicalalities:
+Application is using Typescript and hence files have .tsx extension,
+Auth package incorporates okta security for Login widget,
+Images package incorporates images as given in problem statement,
+Layouts package is where Pages Components, Routes and RestApi's calls are incorporated, 
+Lib package incorporates Okta config,
+Model package incorporates tables and is directly mapped with Java Entities (DAO) package in Java Springboot,
+Application starts with index.tsx , index.html and App.tsx
